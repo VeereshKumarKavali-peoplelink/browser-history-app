@@ -1,0 +1,81 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .browser-header {
+    background-color: #3367d6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+    width: 100%;
+    padding: 35px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .browser-header {
+      justify-content: space-between;
+      height: 8vh;
+      width: 100%;
+    }
+  }
+  
+  .browser-logo {
+    height: 35px;
+    width: 130px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .browser-logo {
+      height: 20px;
+      width: 70px;
+    }
+  }
+  
+  .search-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2850a7;
+    border: 1px solid #ececec;
+    width: 650px;
+  }
+  
+  .search-icon {
+    margin-left: 12px;
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+  }
+  
+  .search-input {
+    border-left: 1px solid #ececec;
+    background-color: transparent;
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+  }
+  
+  .empty-view-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paragraph {
+    font-size: 26px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: black;
+    margin-top: 120px;
+  }
+  

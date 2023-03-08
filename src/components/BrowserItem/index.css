@@ -1,0 +1,86 @@
+.browser-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style-type: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .browser-item {
+      flex-direction: row;
+    }
+  }
+  
+  .logo-title-domain-delete-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .domain-logo {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .logo-title-domain-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .logo-title-domain-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  .title-domain-container {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .title-domain-container {
+      flex-direction: row;
+    }
+  }
+  .title {
+    padding-bottom: 0px;
+  }
+  
+  .domain {
+    padding-top: 0px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .title {
+      align-self: center;
+      margin-right: 30px;
+    }
+  
+    .domain {
+      align-self: center;
+    }
+  }
+  .delete-container {
+    margin-left: auto;
+  }
+  .delete-icon {
+    margin-left: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .delete-icon {
+      margin-left: 30px;
+      text-align: right;
+    }
+  
+    .delete-container {
+      margin-left: auto;
+    }
+  }
+  
